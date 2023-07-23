@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./../template/style.css" />
+    <title>Child component</title>
+  </head>
+  <body>
+    <div class="template">
+      <div class="content">
+        <div class="temp__icon">
+          <img
+            class="temp__icon"
+            src="./../template/assets/Stickersheet.svg"
+            alt=""
+          />
+        </div>
+        <div class="temp__descs">
+          <p class="temp__title-text">Breadcrumbs</p>
+          <p class="temp__desc">
+            Common component examples ready to be copy and pasted into your
+            designs
+          </p>
+        </div>
+      </div>
+      <div class="temp__items">
+        <div class="temp__container">
+          <h2>Breadcrumbs</h2>
+
+          <div
+            style="
+              border: 2px solid var(--border-focused, #006cd6);
+              padding: 10px;
+              border-radius: 5px;
+              width: max-content;
+            "
+          >
+            <div class="breadcr__lists">
+              <!-- list breadce__item 1 -->
+              <div class="breadcr__item">
+                <div class="breadcr__texts">
+                  <p class="breadcr__text breadcr__text-default"></p>
+                  <a class="breadcr__text breadcr__text-default" href=""
+                    >Item</a
+                  >
+                </div>
+              </div>
+              <!-- list breadce__item 2 -->
+              <div class="breadcr__item">
+                <div class="breadcr__texts">
+                  <p class="breadcr__text breadcr__text-default">/</p>
+                  <a class="breadcr__text breadcr__text-default" href=""
+                    >Item</a
+                  >
+                </div>
+              </div>
+
+              <!-- list breadce__item 3 -->
+              <div class="breadcr__item">
+                <div class="breadcr__texts">
+                  <p class="breadcr__text breadcr__text-default">/</p>
+                  <a class="breadcr__text breadcr__text-focus" href="">Item</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+          <h2>Child component</h2>
+          <div class="temp__tabel">
+            <table>
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Default</th>
+                  <th>Hover</th>
+                  <th>Pressed</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>
+                    <p style="display: flex; text-align: center">Default</p>
+                  </th>
+                  <td>
+                    <div class="breadcr__item">
+                      <div class="breadcr__texts">
+                        <p class="breadcr__text breadcr__text-default">/</p>
+                        <a class="breadcr__text breadcr__text-default" href=""
+                          >Item</a
+                        >
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="breadcr__item">
+                      <div class="breadcr__texts">
+                        <p class="breadcr__text breadcr__text-default">/</p>
+                        <a class="breadcr__text breadcr__text-default" href=""
+                          >Item</a
+                        >
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="breadcr__item">
+                      <div class="breadcr__texts">
+                        <p class="breadcr__text breadcr__text-default">/</p>
+                        <a class="breadcr__text breadcr__text-pressed" href=""
+                          >Item</a
+                        >
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="breadcr__item">
+                      <div class="breadcr__texts">
+                        <p class="breadcr__text breadcr__text-default">/</p>
+                        <a class="breadcr__text breadcr__text-focus" href=""
+                          >Item</a
+                        >
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    <p style="display: flex; height: 50px; text-align: start">
+                      Truncated
+                    </p>
+                  </th>
+                  <td class="td__top">
+                    <div class="breadcr__item">
+                      <div class="breadcr__texts">
+                        <p class="breadcr__text breadcr__text-default">/</p>
+                        <a class="breadcr__text breadcr__text-default" href=""
+                          >Item...</a
+                        >
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="breadcr__item">
+                      <div class="breadcr__texts">
+                        <p class="breadcr__text breadcr__text-default">/</p>
+                        <a class="breadcr__text breadcr__text-default" href=""
+                          >Item...</a
+                        >
+                      </div>
+                      <div class="breadcr__data-hover">
+                        <img src="./assets/ic-segitga.svg" alt="" />
+                        <div class="breadcr__data-hover-text">Item</div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="breadcr__item">
+                      <div class="breadcr__texts">
+                        <p class="breadcr__text breadcr__text-default">/</p>
+                        <a class="breadcr__text breadcr__text-pressed" href=""
+                          >Item...</a
+                        >
+                      </div>
+                      <div class="breadcr__data-hover">
+                        <img src="./assets/ic-segitga.svg" alt="" />
+                        <div class="breadcr__data-hover-text">Item</div>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="td__top">
+                    <div class="breadcr__item">
+                      <div class="breadcr__texts">
+                        <p class="breadcr__text breadcr__text-default">/</p>
+                        <a class="breadcr__text breadcr__text-focus" href=""
+                          >Item...</a
+                        >
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
