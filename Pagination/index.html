@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./../template/style.css" />
+    <link rel="stylesheet" href="./../button/style.css" />
+
+    <title>Pagination</title>
+  </head>
+  <body>
+    <div class="template">
+      <div class="content">
+        <div class="temp__icon">
+          <img
+            class="temp__icon"
+            src="./../template/assets/Stickersheet.svg"
+            alt=""
+          />
+        </div>
+        <div class="temp__descs">
+          <p class="temp__title-text">Pagination</p>
+          <p class="temp__desc">
+            Common component examples ready to be copy and pasted into your
+            designs
+          </p>
+        </div>
+      </div>
+      <div class="temp__items">
+        <div class="temp__container">
+          <div class="temp__tabel">
+            <!-- table navigation -->
+            <h3>Navigator</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Default</th>
+                  <th>Hover</th>
+                  <th>Pressed</th>
+                  <th>Focused</th>
+                  <th>IsDisabled</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <a href="" class="pagination__nav">Navigator</a>
+                  </td>
+                  <td>
+                    <a href="" class="pagination__nav pagination__nav-hover"
+                      >Navigator</a
+                    >
+                  </td>
+                  <td>
+                    <a href="" class="pagination__nav pagination__nav-pressed"
+                      >Navigator</a
+                    >
+                  </td>
+                  <td>
+                    <a href="" class="pagination__nav pagination__nav-focus"
+                      >Navigator</a
+                    >
+                  </td>
+                  <td>
+                    <a class="pagination__nav pagination__nav-disabled"
+                      >Navigator</a
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <br />
+            <br />
+            <!-- table number -->
+            <h3>Page</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Default</th>
+                  <th>Hover</th>
+                  <th>Pressed</th>
+                  <th>Focused</th>
+                  <th>isSelected</th>
+                  <th>Elipses</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <button class="btn btn-small btn-subtle">1</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-small btn-subtle">1</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-small btn-subtle">1</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-small btn-subtle">1</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-small btn-subtle">1</button>
+                  </td>
+                  <td>
+                    <button class="btn btn-small btn-subtle">...</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <br />
+            <br />
+            <!-- table dropdown -->
+            <h3>Item counter</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Default</th>
+                  <th>Hover</th>
+                  <th>Pressed</th>
+                  <th>Focused</th>
+                  <th>IsDisabled</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="pagination__dropdown">
+                      <div class="pagination__dropdown-select">
+                        <span class="pagination__dropdown-selected">10</span>
+                        <div class="pagination__arrow">
+                          <img src="./assets/arrow.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="pagination__dropdown">
+                      <div
+                        class="pagination__dropdown-select pagination__dropdown-select-hover"
+                      >
+                        <span class="pagination__dropdown-selected">10</span>
+                        <div class="pagination__arrow">
+                          <img src="./assets/arrow.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="pagination__dropdown">
+                      <div
+                        class="pagination__dropdown-select pagination__dropdown-select-focus"
+                      >
+                        <span class="pagination__dropdown-selected">10</span>
+                        <div class="pagination__arrow">
+                          <img src="./assets/arrow.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="pagination__dropdown">
+                      <div
+                        class="pagination__dropdown-select pagination__dropdown-select-focus"
+                      >
+                        <span class="pagination__dropdown-selected">10</span>
+                        <div class="pagination__arrow">
+                          <img src="./assets/arrow.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="pagination__dropdown">
+                      <div
+                        class="pagination__dropdown-select pagination__dropdown-select-disabled"
+                      >
+                        <span class="pagination__dropdown-selected">10</span>
+                        <div class="pagination__arrow">
+                          <img src="./assets/arrow.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <h2>Template Container</h2>
+        <!-- 101 -->
+        <div class="temp__container">
+          <div class="pagination__container">
+            <div class="pagination__container-left">
+              <div class="pagination__item-top">
+                <p>Show</p>
+                <div class="pagination__dropdown">
+                  <div class="pagination__dropdown-select">
+                    <span class="pagination__dropdown-selected">10</span>
+                    <div class="pagination__arrow">
+                      <img src="./assets/arrow.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <p>entries</p>
+              </div>
+              <div class="pagination__item-down">
+                <p>Showing</p>
+                <p>1</p>
+                <p>to</p>
+                <p>10</p>
+                <p>of</p>
+                <p>45</p>
+                <p>entries</p>
+              </div>
+            </div>
+            <div class="pagination__container-right">
+              <a href="" class="pagination__nav">First</a>
+              <a href="" class="pagination__nav pagination__nav-disabled"
+                >Previous</a
+              >
+              <button class="btn btn-small btn-subtle">1</button>
+              <button class="btn btn-small btn-subtle">2</button>
+              <button class="btn btn-small btn-subtle">3</button>
+              <button class="btn btn-small btn-subtle">4</button>
+              <button class="btn btn-small btn-subtle">5</button>
+              <button class="btn btn-small btn-subtle">...</button>
+              <button class="btn btn-small btn-subtle">101</button>
+              <a href="" class="pagination__nav">Next</a>
+              <a href="" class="pagination__nav">Last</a>
+            </div>
+          </div>
+        </div>
+        <h2>Template Lainnya</h2>
+        <!-- 5 -->
+        <div class="temp__container">
+          <div class="pagination__container">
+            <div class="pagination__container-left">
+              <div class="pagination__item-top">
+                <p>Show</p>
+                <div class="pagination__dropdown">
+                  <div class="pagination__dropdown-select">
+                    <span class="pagination__dropdown-selected">10</span>
+                    <div class="pagination__arrow">
+                      <img src="./assets/arrow.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <p>entries</p>
+              </div>
+              <div class="pagination__item-down">
+                <p>Showing</p>
+                <p>1</p>
+                <p>to</p>
+                <p>10</p>
+                <p>of</p>
+                <p>45</p>
+                <p>entries</p>
+              </div>
+            </div>
+            <div class="pagination__container-right">
+              <a href="" class="pagination__nav">First</a>
+              <a href="" class="pagination__nav pagination__nav-disabled"
+                >Previous</a
+              >
+              <button class="btn btn-small btn-subtle">1</button>
+              <button class="btn btn-small btn-subtle">2</button>
+              <button class="btn btn-small btn-subtle">3</button>
+              <button class="btn btn-small btn-subtle">4</button>
+              <button class="btn btn-small btn-subtle">5</button>
+              <button class="btn btn-small btn-subtle">5</button>
+              <a href="" class="pagination__nav">Next</a>
+              <a href="" class="pagination__nav">Last</a>
+            </div>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="temp__container">
+          <div class="pagination__container">
+            <div class="pagination__container-left">
+              <div class="pagination__item-top">
+                <p>Show</p>
+                <div class="pagination__dropdown">
+                  <div class="pagination__dropdown-select">
+                    <span class="pagination__dropdown-selected">10</span>
+                    <div class="pagination__arrow">
+                      <img src="./assets/arrow.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <p>entries</p>
+              </div>
+              <div class="pagination__item-down">
+                <p>Showing</p>
+                <p>1</p>
+                <p>to</p>
+                <p>10</p>
+                <p>of</p>
+                <p>45</p>
+                <p>entries</p>
+              </div>
+            </div>
+            <div class="pagination__container-right">
+              <a href="" class="pagination__nav">First</a>
+              <a href="" class="pagination__nav pagination__nav-disabled"
+                >Previous</a
+              >
+              <button class="btn btn-small btn-subtle">1</button>
+              <button class="btn btn-small btn-subtle">2</button>
+              <button class="btn btn-small btn-subtle">3</button>
+              <button class="btn btn-small btn-subtle">4</button>
+              <a href="" class="pagination__nav">Next</a>
+              <a href="" class="pagination__nav">Last</a>
+            </div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="temp__container">
+          <div class="pagination__container">
+            <div class="pagination__container-left">
+              <div class="pagination__item-top">
+                <p>Show</p>
+                <div class="pagination__dropdown">
+                  <div class="pagination__dropdown-select">
+                    <span class="pagination__dropdown-selected">10</span>
+                    <div class="pagination__arrow">
+                      <img src="./assets/arrow.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <p>entries</p>
+              </div>
+              <div class="pagination__item-down">
+                <p>Showing</p>
+                <p>1</p>
+                <p>to</p>
+                <p>10</p>
+                <p>of</p>
+                <p>45</p>
+                <p>entries</p>
+              </div>
+            </div>
+            <div class="pagination__container-right">
+              <a href="" class="pagination__nav">First</a>
+              <a href="" class="pagination__nav pagination__nav-disabled"
+                >Previous</a
+              >
+              <button class="btn btn-small btn-subtle">1</button>
+              <button class="btn btn-small btn-subtle">2</button>
+              <button class="btn btn-small btn-subtle">3</button>
+              <a href="" class="pagination__nav">Next</a>
+              <a href="" class="pagination__nav">Last</a>
+            </div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="temp__container">
+          <div class="pagination__container">
+            <div class="pagination__container-left">
+              <div class="pagination__item-top">
+                <p>Show</p>
+                <div class="pagination__dropdown">
+                  <div class="pagination__dropdown-select">
+                    <span class="pagination__dropdown-selected">10</span>
+                    <div class="pagination__arrow">
+                      <img src="./assets/arrow.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <p>entries</p>
+              </div>
+              <div class="pagination__item-down">
+                <p>Showing</p>
+                <p>1</p>
+                <p>to</p>
+                <p>10</p>
+                <p>of</p>
+                <p>45</p>
+                <p>entries</p>
+              </div>
+            </div>
+            <div class="pagination__container-right">
+              <a href="" class="pagination__nav">First</a>
+              <a href="" class="pagination__nav pagination__nav-disabled"
+                >Previous</a
+              >
+              <button class="btn btn-small btn-subtle">1</button>
+              <button class="btn btn-small btn-subtle">2</button>
+              <a href="" class="pagination__nav">Next</a>
+              <a href="" class="pagination__nav">Last</a>
+            </div>
+          </div>
+        </div>
+        <!-- 1 -->
+        <div class="temp__container">
+          <div class="pagination__container">
+            <div class="pagination__container-left">
+              <div class="pagination__item-top">
+                <p>Show</p>
+                <div class="pagination__dropdown">
+                  <div class="pagination__dropdown-select">
+                    <span class="pagination__dropdown-selected">10</span>
+                    <div class="pagination__arrow">
+                      <img src="./assets/arrow.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <p>entries</p>
+              </div>
+              <div class="pagination__item-down">
+                <p>Showing</p>
+                <p>1</p>
+                <p>to</p>
+                <p>10</p>
+                <p>of</p>
+                <p>45</p>
+                <p>entries</p>
+              </div>
+            </div>
+            <div class="pagination__container-right">
+              <a href="" class="pagination__nav">First</a>
+              <a href="" class="pagination__nav pagination__nav-disabled"
+                >Previous</a
+              >
+              <button class="btn btn-small btn-subtle">1</button>
+              <a href="" class="pagination__nav">Next</a>
+              <a href="" class="pagination__nav">Last</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

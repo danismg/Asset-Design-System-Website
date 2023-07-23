@@ -125,13 +125,17 @@
 .btn-subtle,
 .ic__img-subtle,
 .ic__load-subtle {
-  background-color: transparent !important;
+  background-color: transparent;
   &:hover {
     color: var(--text-subtle, #5e6973) !important;
+    border-radius: 3px;
+    background: var(--background-neutral-subtle-hover, #f4f5f7) !important;
   }
-  /* &:focus {
-    background: var(--background-neutral-subtle-pressed, #dfe1e6);
-  } */
+  &:focus {
+    border-radius: 3px;
+    border: 2px solid var(--border-focused, #006cd6);
+    padding: (padding - 2px) !important;
+  }
 
   &:disabled {
     background: var(--background-disabled, #f4f5f7);
