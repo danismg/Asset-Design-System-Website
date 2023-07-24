@@ -7,6 +7,11 @@ p {
   margin: 0;
 }
 
+.row-top {
+  height: max-content;
+  width: max-content;
+}
+
 .temp__containers {
   justify-content: center !important;
   /* background-color: gray; */
@@ -36,7 +41,7 @@ p {
   transform: rotate(180deg);
 }
 .spotlight__arrow-right {
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); */
 }
 
 .spotlight__arrow-top {

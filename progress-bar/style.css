@@ -1,0 +1,60 @@
+.progress-bar__component {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.progress-bar__line {
+  display: flex;
+  width: 20px;
+  height: 6px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 3px;
+}
+
+.line-success {
+  background: var(--red-dark-200, #09c4b2);
+}
+.line-warning {
+  background: var(--red-dark-200, #fba02e);
+}
+.line-danger {
+  background: var(--red-dark-200, #ef627b);
+}
+
+.line-1 {
+  width: 40px !important;
+}
+.line-2 {
+  width: 80px !important;
+}
+.line-3 {
+  width: 160px !important;
+}
+.line-4 {
+  width: 240px !important;
+}
+.line-5 {
+  width: 320px !important;
+}
+.line-6 {
+  width: 400px !important;
+}
+.line-7 {
+  width: 480px !important;
+}
+.line-8 {
+  width: 608px !important;
+}
+
+.progress-bar__bg-line {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  width: 608px;
+  height: 6px;
+  border-radius: 3px;
+  background: var(--neutral-50, #c2c7cf);
+}
